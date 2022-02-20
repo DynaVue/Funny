@@ -121,8 +121,6 @@ const TopTierCharity: React.FC = () => {
           className="top-charity__carousel"
           removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
           keyBoardControl={true}
-          transitionDuration={2000}
-          infinite={true}
           pauseOnHover={true}
           afterChange={(_nextSlide, { currentSlide }) => {
             setCurrentSlide(currentSlide);
